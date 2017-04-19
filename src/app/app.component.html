@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+
+<app-comp1 (counterChange)="counter($event)"  [counter]="componentCounterValue"></app-comp1>
+
+<p>Component counter value: {{componentCounterValue}}</p>
